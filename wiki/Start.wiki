@@ -3,7 +3,9 @@
 = 目前功能 =
 
   * *右键*点击go按钮（地址栏右侧的三角）对当前浏览的域名设置或取消代理模式
-  * 禁用了CNNIC的证书
+    * 默认的翻墙列表中有大概1500个网址，目前收集于[http://code.google.com/p/autoproxy-gfwlist AutoProxy]
+    * 对需要翻墙的网站才使用代理，墙内的网站直接浏览
+  * 过滤了CNNIC的证书
   * 双击标签页关闭
   * 便携版
   * 基于Chromium 5.0.375.29 (r46008)
@@ -16,4 +18,4 @@
   * 使用多进程模型和沙盒技术，极大的提高了浏览器的稳定性和安全性，在目前是IE和firefox不能比的
 
 = 其它 =
-  * 默认的翻墙列表中有大概1500个网址，主要来自于[http://code.google.com/p/autoproxy-gfwlist AutoProxy]
+  
