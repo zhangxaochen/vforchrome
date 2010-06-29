@@ -3,7 +3,8 @@
 
 = 功能 =
 
-  * 目前内置的SSH帐号已经失效，可以通过编辑vfortunnel.xml文件配置自己的SSH帐号
+  * 可以通过编辑vfortunnel.xml文件配置自己的SSH帐号，此配置文件优先于ssh_metainfo.xml
+  * 可以通过编辑ssh_metainfo.xml来获取网上公开的SSH帐号
   * *右键*点击go按钮（地址栏右侧的三角）对当前浏览的域名*设置或取消*代理模式
     * 默认的翻墙列表中有大概1500个网址，目前收集于[http://code.google.com/p/autoproxy-gfwlist AutoProxy]，并经过了测试，将少数现在已经可以直接浏览的网站从列表中删除
     * 对需要翻墙的网站才使用代理，墙内的网站直接浏览
