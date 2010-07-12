@@ -1,10 +1,10 @@
-= 当前版本： 0.02 =
+= 版本： 0.03 =
  * 基于Chromium 5.0.375.99 (51029)
+ * ssh_metainfo.xml文件配置比较复杂，太过程序员风格，不适合用户使用，因此不再随压缩包提供此文件。vfortunnel.exe会到http://vforchrome.googlecode.com/files/ssh_metainfo.xml 获取该配置文件，这样的好处是当一些公开的ssh失效时，可以及时更改。如果存在自定义私有帐号的vfortunnel.xml，则vfortunnel.exe不会下载ssh_metainfo.xml文件。
 
 = 功能 =
 
-  * 可以通过编辑vfortunnel.xml文件配置自己的SSH帐号，此配置文件优先于ssh_metainfo.xml
-  * 可以通过编辑ssh_metainfo.xml来获取网上公开的SSH帐号
+  * 可以通过编辑vfortunnel.xml文件配置自己的SSH帐号
   * *右键*点击go按钮（地址栏右侧的三角）对当前浏览的域名*设置或取消*代理模式
     * 默认的翻墙列表中有大概1500个网址，目前收集于[http://code.google.com/p/autoproxy-gfwlist AutoProxy]，并经过了测试，将少数现在已经可以直接浏览的网站从列表中删除
     * 对需要翻墙的网站才使用代理，墙内的网站直接浏览
