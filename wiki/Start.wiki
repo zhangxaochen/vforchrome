@@ -2,7 +2,7 @@
  * 将vfortunnel.exe下载配置文件的位置更改为http://vforchrome.googlecode.com/svn/trunk/ssh_metainfo.xml
 = 版本： 0.03 =
  * 基于Chromium 5.0.375.99 (51029)
- * ssh_metainfo.xml文件配置比较复杂，太过程序员风格，不适合用户使用，因此不再随压缩包提供此文件。vfortunnel.exe会到http://vforchrome.googlecode.com/files/ssh_metainfo.xml 获取该配置文件，这样的好处是当一些公开的ssh失效时，可以及时更改。如果存在自定义私有帐号的vfortunnel.xml，则vfortunnel.exe不会下载ssh_metainfo.xml文件。
+ * ssh_metainfo.xml文件配置比较复杂，太过程序员风格，不适合用户使用，因此不再随压缩包提供此文件。vfortunnel.exe会自动下载该配置文件，这样的好处是当一些公开的ssh失效时，可以及时更改。如果存在自定义私有帐号的vfortunnel.xml，则vfortunnel.exe不会下载ssh_metainfo.xml文件。
 
 = 功能 =
 
