@@ -1,0 +1,9 @@
+# 本页是为那些想了解更多的用户准备的。
+= 关于vfortunnel.exe=
+
+vfortunnel.exe 表面上看是一个plink，其实它的真实身份……还是plink。只不过*增加了一些功能。
+
+= 细节=
+  * 第一种用法：可以当作plink.exe使用。在命令行中不带参数运行vfortunnel.exe的时候，就可以看到plink的帮助信息。
+  * 第二种用法：只带一个参数运行时，vfortunnel.exe会认为这个参数是一个路径，它会把自己的工作路径设置到这里，然后，如果你配置了自己的vfortunnel.xml，就按照vfortunnel.xml中的信息启动SSH隧道，否则就下载ssh_metainfo.xml，根据ssh_metainfo.xml提供的信息获取网上公开的SSH信息，最后启动隧道。也就是说，vfortunnel.exe完全可以单独运行，如果你想用firefox而不是chrome，只要配置firefox使用vforchrome.pac这个自动代理脚本，或者直接指定使用SOCKS 127.0.0.0:9052好了。
+  * 第三种用法：vfortunnel.exe --test ssh_metainfo.xml ，用来测试配置文件ssh_metainfo.xml写的是否正确，写这个配置文件需要对XML和正则表达式有些了解，所以程序正常运行时只从网络下载这个配置文件而不会处理用户自己写的。希望有高级用户愿意帮助添加和维护这个列表 ：）
