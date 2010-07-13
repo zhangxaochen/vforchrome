@@ -26,7 +26,7 @@
 	</item>
     <item>
 		<url_>http://ssh.daili.vc/</url_>
-		<regex_>服务器地址：&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;(.*?)&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;.*?服务器用户：&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;(.*?)&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;.*?服务器密码：&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;(.*?)&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;</regex_>
+		<regex_>服务器地址：&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;(.*?)&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;.*?服务器用户：&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;(.*?)&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;.*?服务器密码：&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;(.*?)\s*&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;</regex_>
 		<infomap_ class_id="2" tracking_level="0" version="0">
 			<count>3</count>
 			<item_version>0</item_version>
