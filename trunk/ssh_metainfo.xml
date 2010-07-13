@@ -2,7 +2,7 @@
 <!DOCTYPE boost_serialization>
 <boost_serialization signature="serialization::archive" version="7">
 <metainfo_list class_id="0" tracking_level="0" version="0">
-	<count>2</count>
+	<count>3</count>
 	<item_version>0</item_version>
 	<item class_id="1" tracking_level="0" version="0">
 		<url_>http://freessh.us/</url_>
@@ -44,6 +44,28 @@
 			</item>
 		</infomap_>
 	</item>
+
+  <item>
+		<url_>http://www.sshcenter.info/free-ssh-account.php</url_>
+		<regex_>SSH 服务器：([a-zA-Z0-9.]+?)&lt;br /&gt;\s*SSH 端口：22&lt;br /&gt;\s*用户名称：(\w+)&lt;br /&gt;\s*用户密码：([a-zA-Z0-9]+?)\s*&lt;br /&gt;</regex_>
+		<infomap_ class_id="2" tracking_level="0" version="0">
+			<count>3</count>
+			<item_version>0</item_version>
+			<item class_id="3" tracking_level="0" version="0">
+				<first>HostName</first>
+				<second>1</second>
+			</item>
+			<item>
+				<first>Password</first>
+				<second>3</second>
+			</item>
+			<item>
+				<first>UserName</first>
+				<second>2</second>
+			</item>
+		</infomap_>
+  </item>
+
 </metainfo_list>
 </boost_serialization>
 
