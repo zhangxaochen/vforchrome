@@ -2,7 +2,7 @@
 <!DOCTYPE boost_serialization>
 <boost_serialization signature="serialization::archive" version="7">
   <metainfo_list class_id="0" tracking_level="0" version="0">
-    <count>8</count>
+    <count>6</count>
     <item_version>0</item_version>
 
     <item class_id="1" tracking_level="0" version="0">
@@ -29,27 +29,6 @@
     <item>
       <url_>http://ssh.daili.vc/</url_>
       <regex_>服务器地址：&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;(.*?)&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;.*?服务器用户：&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;(.*?)&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;.*?服务器密码：&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;(.*?)\s*&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;</regex_>
-      <infomap_ class_id="2" tracking_level="0" version="0">
-        <count>3</count>
-        <item_version>0</item_version>
-        <item class_id="3" tracking_level="0" version="0">
-          <first>HostName</first>
-          <second>1</second>
-        </item>
-        <item>
-          <first>Password</first>
-          <second>3</second>
-        </item>
-        <item>
-          <first>UserName</first>
-          <second>2</second>
-        </item>
-      </infomap_>
-    </item>
-
-    <item>
-      <url_>http://www.sshcenter.info/free-ssh-account.php</url_>
-      <regex_>SSH 服务器：([a-zA-Z0-9.]+?)&lt;br /&gt;\s*SSH 端口：22&lt;br /&gt;\s*用户名称：(\w+)&lt;br /&gt;\s*用户密码：([a-zA-Z0-9]+?)\s*&lt;br /&gt;</regex_>
       <infomap_ class_id="2" tracking_level="0" version="0">
         <count>3</count>
         <item_version>0</item_version>
@@ -148,27 +127,6 @@
         <item>
           <first>UserName</first>
           <second>3</second>
-        </item>
-      </infomap_>
-    </item>
-
-    <item>
-      <url_>http://free.ssh.vpn.net.in/</url_>
-      <regex_>&#xb7;&#xfe;&#xce;&#xf1;&#xc6;&#xf7;IP &#xa3;&#xba;&lt;div class=&quot;code&quot;&gt;\s*([a-zA-Z0-9.]+?)\s*&lt;/div&gt;\s*SSH&#xd3;&#xc3;&#xbb;&#xa7;\s*&#xa3;&#xba;&lt;div class=&quot;code&quot;&gt;\s*([a-zA-Z0-9.]+?)\s*&lt;/div&gt;\s*SSH&#xc3;&#xdc;&#xc2;&#xeb;\s*&#xa3;&#xba;&lt;div class=&quot;code&quot;&gt;\s*([a-zA-Z0-9.]+?)\s*&lt;/div&gt;</regex_>
-      <infomap_ class_id="2" tracking_level="0" version="0">
-        <count>3</count>
-        <item_version>0</item_version>
-        <item class_id="3" tracking_level="0" version="0">
-          <first>HostName</first>
-          <second>1</second>
-        </item>
-        <item>
-          <first>Password</first>
-          <second>3</second>
-        </item>
-        <item>
-          <first>UserName</first>
-          <second>2</second>
         </item>
       </infomap_>
     </item>
