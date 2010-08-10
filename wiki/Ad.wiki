@@ -14,9 +14,6 @@
 年付价格：135
 }}}
 
- * http://ssh.daili39.net/
-{{{
-高级收费版	价格每月15元，延迟低，速度很快！稳定性一流！
-}}}
+ * http://ssh.daili.vc/
 
  * http://freessh.us/
