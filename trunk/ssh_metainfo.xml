@@ -2,7 +2,7 @@
 <!DOCTYPE boost_serialization>
 <boost_serialization signature="serialization::archive" version="7">
   <metainfo_list class_id="0" tracking_level="0" version="0">
-    <count>6</count>
+    <count>3</count>
     <item_version>0</item_version>
 
     <item class_id="1" tracking_level="0" version="0">
@@ -64,69 +64,6 @@
         <item>
           <first>UserName</first>
           <second>1</second>
-        </item>
-      </infomap_>
-    </item>
-
-    <item>
-      <url_>http://ssh.daili39.net/</url_>
-      <regex_>(&amp;#\d+;)+&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;([a-zA-Z0-9.]+)&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;\s*&lt;br /&gt;\s*(&amp;#\d+;)+&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;22&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;\s*&lt;br /&gt;\s*(&amp;#\d+;)+&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;([a-zA-Z0-9.]+)&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;\s*&lt;br /&gt;\s*(&amp;#\d+;)+&lt;input name=&quot;keywords&quot; type=&quot;text&quot; size=&quot;30&quot; value=&quot;([a-zA-Z0-9.]+)\s*&quot; onClick=&quot;oCopy\(this\)&quot; class=&quot;formfield&quot; /&gt;\s*&lt;br /&gt;</regex_>
-      <infomap_ class_id="2" tracking_level="0" version="0">
-        <count>3</count>
-        <item_version>0</item_version>
-        <item class_id="3" tracking_level="0" version="0">
-          <first>HostName</first>
-          <second>2</second>
-        </item>
-        <item>
-          <first>Password</first>
-          <second>7</second>
-        </item>
-        <item>
-          <first>UserName</first>
-          <second>5</second>
-        </item>
-      </infomap_>
-    </item>
-
-    <item>
-      <url_>http://www.fanqiang.cc/ssh/?page_id=23</url_>
-      <regex_>&lt;tr&gt;\s*&lt;td rowspan=&quot;\d+&quot; width=&quot;\d+&quot; bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;SSH代理服务器:&lt;/span&gt;&lt;/td&gt;\s*&lt;td class=&quot;STYLE60&quot; width=&quot;411&quot; bgcolor=&quot;#f3f3f3&quot;&gt;([a-zA-Z0-9.]+)&lt;/td&gt;\s*&lt;/tr&gt;\s*&lt;tr&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;/td&gt;\s*&lt;/tr&gt;\s*&lt;tr&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE62&quot;&gt;SSH端口：&lt;/span&gt;&lt;/td&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;22&lt;/span&gt;&lt;/td&gt;\s*&lt;/tr&gt;\s*&lt;tr&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;账号：&lt;/span&gt;&lt;/td&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;/td&gt;\s*&lt;/tr&gt;\s*&lt;tr&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;密码：&lt;/span&gt;&lt;/td&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;/td&gt;\s*&lt;/tr&gt;</regex_>
-      <infomap_ class_id="2" tracking_level="0" version="0">
-        <count>3</count>
-        <item_version>0</item_version>
-        <item class_id="3" tracking_level="0" version="0">
-          <first>HostName</first>
-          <second>1</second>
-        </item>
-        <item>
-          <first>Password</first>
-          <second>4</second>
-        </item>
-        <item>
-          <first>UserName</first>
-          <second>3</second>
-        </item>
-      </infomap_>
-    </item>
-
-    <item>
-      <url_>http://www.fanqiang.cc/ssh/?page_id=23</url_>
-      <regex_>&lt;tr&gt;\s*&lt;td rowspan=&quot;\d+&quot; width=&quot;\d+&quot; bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;SSH代理服务器:&lt;/span&gt;&lt;/td&gt;\s*&lt;td class=&quot;STYLE60&quot; width=&quot;411&quot; bgcolor=&quot;#f3f3f3&quot;&gt;([a-zA-Z0-9.]+)&lt;/td&gt;\s*&lt;/tr&gt;\s*&lt;tr&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;/td&gt;\s*&lt;/tr&gt;\s*&lt;tr&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE62&quot;&gt;SSH端口：&lt;/span&gt;&lt;/td&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;22&lt;/span&gt;&lt;/td&gt;\s*&lt;/tr&gt;\s*&lt;tr&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;账号：&lt;/span&gt;&lt;/td&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;/td&gt;\s*&lt;/tr&gt;\s*&lt;tr&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;密码：&lt;/span&gt;&lt;/td&gt;\s*&lt;td bgcolor=&quot;#f3f3f3&quot;&gt;&lt;span class=&quot;STYLE76&quot;&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;/td&gt;\s*&lt;/tr&gt;</regex_>
-      <infomap_ class_id="2" tracking_level="0" version="0">
-        <count>3</count>
-        <item_version>0</item_version>
-        <item class_id="3" tracking_level="0" version="0">
-          <first>HostName</first>
-          <second>2</second>
-        </item>
-        <item>
-          <first>Password</first>
-          <second>4</second>
-        </item>
-        <item>
-          <first>UserName</first>
-          <second>3</second>
         </item>
       </infomap_>
     </item>
