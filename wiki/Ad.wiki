@@ -19,3 +19,11 @@
  * http://freessh.us/
 
  * http://www.dailiav.com/
+
+ * http://www.myssh.in/buy.html
+{{{
+月付价格：10
+季付价格：30
+半年付价格：55
+年付价格：100
+}}}
