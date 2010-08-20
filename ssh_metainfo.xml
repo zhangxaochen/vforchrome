@@ -2,7 +2,7 @@
 <!DOCTYPE boost_serialization>
 <boost_serialization signature="serialization::archive" version="7">
   <metainfo_list class_id="0" tracking_level="0" version="0">
-    <count>3</count>
+    <count>4</count>
     <item_version>0</item_version>
 
     <item class_id="1" tracking_level="0" version="0">
@@ -64,6 +64,27 @@
         <item>
           <first>UserName</first>
           <second>1</second>
+        </item>
+      </infomap_>
+    </item>
+
+    <item>
+      <url_>http://www.dailiav.com/ssh.html</url_>
+      <regex_>ssh服务器1地址:&lt;/strong&gt;&lt;span&gt;([a-zA-Z0-9.]+)&lt;/span&gt;\s*&lt;br/&gt;\s*&lt;strong&gt;用户名字:&lt;/strong&gt;&lt;span&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;br/&gt;\s*&lt;strong&gt;密码:&lt;/strong&gt;&lt;span&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;br/&gt;</regex_>
+      <infomap_ class_id="2" tracking_level="0" version="0">
+        <count>3</count>
+        <item_version>0</item_version>
+        <item class_id="3" tracking_level="0" version="0">
+          <first>HostName</first>
+          <second>1</second>
+        </item>
+        <item>
+          <first>Password</first>
+          <second>3</second>
+        </item>
+        <item>
+          <first>UserName</first>
+          <second>2</second>
         </item>
       </infomap_>
     </item>
