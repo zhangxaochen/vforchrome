@@ -2,7 +2,7 @@
 <!DOCTYPE boost_serialization>
 <boost_serialization signature="serialization::archive" version="7">
   <metainfo_list class_id="0" tracking_level="0" version="0">
-    <count>6</count>
+    <count>7</count>
     <item_version>0</item_version>
 
     <item class_id="1" tracking_level="0" version="0">
@@ -49,7 +49,7 @@
 
     <item>
       <url_>http://ssh.tl/</url_>
-      <regex_>&lt;thead&gt;	&lt;tr&gt;&lt;th&gt;用户名&lt;/th&gt;&lt;th&gt;密码&lt;/th&gt;&lt;th&gt;服务器IP&lt;/th&gt;&lt;th&gt;上次更新时间&lt;/th&gt;&lt;th&gt;限制&lt;/th&gt;&lt;/tr&gt;\s*&lt;/thead&gt;	&lt;tbody&gt;	&lt;tr&gt;&lt;td&gt;([a-zA-Z0-9]+?)&lt;/td&gt;&lt;td&gt;([a-zA-Z0-9]+?)&lt;/td&gt;&lt;td&gt;([a-zA-Z0-9.]+?)&lt;/td&gt;</regex_>
+      <regex_>&lt;thead&gt;\s*&lt;tr&gt;&lt;th&gt;用户名&lt;/th&gt;&lt;th&gt;密码&lt;/th&gt;&lt;th&gt;服务器IP&lt;/th&gt;&lt;th&gt;上次更新时间&lt;/th&gt;&lt;th&gt;限制&lt;/th&gt;&lt;th&gt;使用方法&lt;/th&gt;&lt;/tr&gt;\s*&lt;/thead&gt;\s*&lt;tbody&gt;\s*&lt;tr&gt;&lt;td&gt;([a-zA-Z0-9.]+)&lt;/td&gt;&lt;td&gt;([a-zA-Z0-9.]+)&lt;/td&gt;&lt;td&gt;([a-zA-Z0-9.]+)&lt;/td&gt;</regex_>
       <infomap_ class_id="2" tracking_level="0" version="0">
         <count>3</count>
         <item_version>0</item_version>
@@ -127,6 +127,27 @@
         <item>
           <first>UserName</first>
           <second>3</second>
+        </item>
+      </infomap_>
+    </item>
+
+    <item>
+      <url_>http://178.18.17.78/</url_>
+      <regex_>������IP\s*��&lt;div\s*class=&quot;code&quot;&gt;\s*([a-zA-Z0-9.]+)\s*&lt;/div&gt;\s*SSH�û�\s*��&lt;div\s*class=&quot;code&quot;&gt;\s*([a-zA-Z0-9.]+)\s*&lt;/div&gt;\s*SSH����\s*��&lt;div\s*class=&quot;code&quot;&gt;([a-zA-Z0-9.]+)\s*&lt;/div&gt;</regex_>
+      <infomap_ class_id="2" tracking_level="0" version="0">
+        <count>3</count>
+        <item_version>0</item_version>
+        <item class_id="3" tracking_level="0" version="0">
+          <first>HostName</first>
+          <second>1</second>
+        </item>
+        <item>
+          <first>Password</first>
+          <second>3</second>
+        </item>
+        <item>
+          <first>UserName</first>
+          <second>2</second>
         </item>
       </infomap_>
     </item>
