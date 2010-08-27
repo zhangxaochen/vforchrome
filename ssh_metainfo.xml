@@ -70,7 +70,7 @@
 
     <item>
       <url_>http://www.dailiav.com/ssh.html</url_>
-      <regex_>sshæœåŠ¡å™¨1åœ°å€:&lt;/strong&gt;&lt;span&gt;([a-zA-Z0-9.]+)&lt;/span&gt;\s*&lt;br/&gt;\s*&lt;strong&gt;ç”¨æˆ·åå­—:&lt;/strong&gt;&lt;span&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;br/&gt;\s*&lt;strong&gt;å¯†ç :&lt;/strong&gt;&lt;span&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;br/&gt;</regex_>
+      <regex_>sshæœåŠ¡å™¨[0-9]åœ°å€:&lt;/strong&gt;&lt;span&gt;([a-zA-Z0-9.]+)&lt;/span&gt;\s*&lt;br/&gt;\s*&lt;strong&gt;ç”¨æˆ·åå­—:&lt;/strong&gt;&lt;span&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;br/&gt;\s*&lt;strong&gt;å¯†ç :&lt;/strong&gt;&lt;span&gt;([a-zA-Z0-9.]+)&lt;/span&gt;&lt;br/&gt;</regex_>
       <infomap_ class_id="2" tracking_level="0" version="0">
         <count>3</count>
         <item_version>0</item_version>
@@ -132,7 +132,7 @@
     </item>
 
     <item>
-      <url_>http://178.18.17.78/</url_>
+      <url_>http://ssh.xiaod.in/freessh.php</url_>
       <regex_>·şÎñÆ÷IP\s*£º&lt;div\s*class=&quot;code&quot;&gt;\s*([a-zA-Z0-9.]+)\s*&lt;/div&gt;\s*SSHÓÃ»§\s*£º&lt;div\s*class=&quot;code&quot;&gt;\s*([a-zA-Z0-9.]+)\s*&lt;/div&gt;\s*SSHÃÜÂë\s*£º&lt;div\s*class=&quot;code&quot;&gt;([a-zA-Z0-9.]+)\s*&lt;/div&gt;</regex_>
       <infomap_ class_id="2" tracking_level="0" version="0">
         <count>3</count>
