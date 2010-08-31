@@ -1517,6 +1517,9 @@ var sites = new Array (
 "zuo.la",
 "zuola.com",
 "zyzg.us",
+"hk.yahoo.com",
+"tw.yahoo.com",
+"www.demonoid.com",
 //DOMAIN_END}
 null);
 
