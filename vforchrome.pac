@@ -327,6 +327,7 @@ var sites = new Array (
 "cmule.info",
 "cmule2.com",
 "cn.dayabook.com",
+"cn.wsj.com",
 "cn2.streetvoice.com",
 "cnavista.com.tw",
 "cnbloggercon.org",
@@ -620,6 +621,7 @@ var sites = new Array (
 "hisex.tv",
 "hjclub.info",
 "hk-pub.com",
+"hk.yahoo.com",
 "hk32168.com",
 "hkbf.org",
 "hkday.net",
@@ -1238,6 +1240,7 @@ var sites = new Array (
 "tw.nicovideo.jp",
 "tw.streetvoice.com",
 "tw.wowarmory.com",
+"tw.yahoo.com",
 "twaitter.com",
 "twazzup.com",
 "twbbs.net.tw",
@@ -1409,6 +1412,7 @@ var sites = new Array (
 "www.chromium.org",
 "www.coat.co.jp",
 "www.coolloud.org.tw",
+"www.demonoid.com",
 "www.dpp.org.tw",
 "www.dwheeler.com",
 "www.dynawebinc.com",
@@ -1517,9 +1521,6 @@ var sites = new Array (
 "zuo.la",
 "zuola.com",
 "zyzg.us",
-"hk.yahoo.com",
-"tw.yahoo.com",
-"www.demonoid.com",
 //DOMAIN_END}
 null);
 
