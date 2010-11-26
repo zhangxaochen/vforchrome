@@ -1,3 +1,7 @@
+= 0.07c =
+ * 升级基版本到Chromium 7.0.517.44
+ * 去掉了内置的双击关闭标签的功能，现在Google提供了一个扩展[https://chrome.google.com/extensions/detail/fjccknnhdnkbanjilpjddjhmkghmachn Chrome Toolbox]可以做这件事。
+
 = 0.07b =
  * 基于Chromium 7.0.517.41
  * 修复vfortunnel.exe对于-N参数被遗漏的问题
