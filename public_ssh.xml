@@ -2,48 +2,8 @@
 <!DOCTYPE boost_serialization>
 <boost_serialization signature="serialization::archive" version="7">
   <metainfo_list class_id="0" tracking_level="0" version="0">
-    <count>2</count>
+    <count>0</count>
     <item_version>0</item_version>
-    <item class_id="1" tracking_level="0" version="0">
-      <url_>http://free.ssh2proxy.com/</url_>
-      <regex_>服务器地址：&lt;input\s*name=&quot;keywords&quot;\s*type=&quot;text&quot;\s*size=&quot;\d+&quot;\s*value=&quot;([0-9.]+)&quot;\s*onClick=&quot;oCopy\(this\)&quot;\s*class=&quot;formfield&quot;\s*/&gt;\s*&lt;br\s*/&gt;\s*服务器用户：&lt;input\s*name=&quot;keywords&quot;\s*type=&quot;text&quot;\s*size=&quot;\d+&quot;\s*value=&quot;([0-9a-zA-Z.]+)&quot;\s*onClick=&quot;oCopy\(this\)&quot;\s*class=&quot;formfield&quot;\s*/&gt;\s*&lt;br\s*/&gt;\s*服务器密码：&lt;input\s*name=&quot;keywords&quot;\s*type=&quot;text&quot;\s*size=&quot;\d+&quot;\s*value=&quot;([0-9a-zA-Z.]+)&quot;\s*onClick=&quot;oCopy\(this\)&quot;\s*class=&quot;formfield&quot;\s*/&gt;\s*&lt;br\s*/&gt;</regex_>
-      <infomap_ class_id="2" tracking_level="0" version="0">
-        <count>3</count>
-        <item_version>0</item_version>
-        <item class_id="3" tracking_level="0" version="0">
-          <first>HostName</first>
-          <second>1</second>
-        </item>
-        <item>
-          <first>Password</first>
-          <second>3</second>
-        </item>
-        <item>
-          <first>UserName</first>
-          <second>2</second>
-        </item>
-      </infomap_>
-    </item>
-    <item>
-      <url_>http://feelssh.com/</url_>
-      <regex_>服务器地址：([0-9.]+)&lt;/div&gt;\s*&lt;div class=&quot;font&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SSH端口：\d+&lt;/div&gt;\s*&lt;div class=&quot;font&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SSH帐户：([0-9a-zA-Z.]+)&lt;/div&gt;\s*&lt;div class=&quot;font&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SSH密码：\s*&lt;div align=&quot;center&quot;&gt;\s*&lt;script type=&quot;text/javascript&quot;&gt;&lt;[^&gt;]+&gt;\s*&lt;/script&gt;\s*&lt;[^&gt;]+&gt;\s*&lt;[^&gt;]+&gt;\s*&lt;[^&gt;]+&gt;\s*([^\s&lt;]+)</regex_>
-      <infomap_ class_id="2" tracking_level="0" version="0">
-        <count>3</count>
-        <item_version>0</item_version>
-        <item class_id="3" tracking_level="0" version="0">
-          <first>HostName</first>
-          <second>1</second>
-        </item>
-        <item>
-          <first>Password</first>
-          <second>3</second>
-        </item>
-        <item>
-          <first>UserName</first>
-          <second>2</second>
-        </item>
-      </infomap_>
-    </item>
   </metainfo_list>
 </boost_serialization>
 
