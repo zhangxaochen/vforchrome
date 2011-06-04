@@ -1,0 +1,26 @@
+{
+  "distribution": {
+    "import_bookmarks_from_file": "bookmarks.html",
+    "skip_first_run_ui": true,
+    "show_welcome_page": true
+  },
+  "bookmark_bar": {
+    "show_on_all_tabs": true
+  },
+  "browser": {
+    "show_home_button": true
+  },
+  "download": {
+    "prompt_for_download": true
+  },
+  "homepage": "about:blank",
+  "homepage_is_newtabpage": true,
+  "instant": {
+    "confirm_dialog_shown": true,
+    "enabled": true,
+    "enabled_once": true
+  },
+  "plugins": {
+    "enabled_internal_pdf3": true
+  }
+}
